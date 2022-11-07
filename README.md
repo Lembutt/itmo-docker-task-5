@@ -16,4 +16,4 @@ curl localhost:33722/stat
 curl localhost:33722/about
 ```
 
-This [image](https://hub.docker.com/repository/docker/lembutt/itmo-docker-task-5) on Docker Hub
+This [image](https://hub.docker.com/repository/docker/lembutt/itmo-docker-task-7) on Docker Hub

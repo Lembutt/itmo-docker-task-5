@@ -3,8 +3,9 @@
 ## Установка и запуск:
 
 ```bash
-docker pull lembutt/itmo-docker-task-5:latest
-docker run -p 33722:8080 lembutt/itmo-docker-task-5:latest
+git clone -b task7 https://github.com/Lembutt/itmo-docker-task-5.git
+cd itmo-docker-task-5
+
 ```
 
 ## Тестирование:

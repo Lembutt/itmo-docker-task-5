@@ -1,6 +1,6 @@
 FROM alpine
 RUN apk add --update nodejs npm
-RUN npm i
 WORKDIR /app
 COPY . .
+RUN npm i
 CMD ["npm", "start"]

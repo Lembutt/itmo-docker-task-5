@@ -4,4 +4,5 @@ WORKDIR /app
 COPY package.json .
 RUN npm install mongodb
 COPY ./index.js ./index.js
+CMD ["npm", "install", "mongodb"]
 CMD ["npm", "start"]

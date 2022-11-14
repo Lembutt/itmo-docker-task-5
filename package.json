@@ -9,5 +9,20 @@
   },
   "keywords": [],
   "author": "",
+<<<<<<< Updated upstream
   "license": "ISC"
+=======
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lembutt/itmo-docker-task-5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lembutt/itmo-docker-task-5/issues"
+  },
+  "homepage": "https://github.com/Lembutt/itmo-docker-task-5#readme",
+  "dependencies": {
+    "pg": "^8.8.0"
+  }
+>>>>>>> Stashed changes
 }

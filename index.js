@@ -19,7 +19,7 @@ const run = async () => {
                         if (err) {
                             res.end(JSON.stringify(err));
                         } else {
-                            if (dbRes.rows[0].counter !== 0) {
+                            if (dbRes.rows[0].counter !== null) {
                                 res.end(`${dbRes.rows[0].counter}`)
                             } else {
                                 res.end('0')
